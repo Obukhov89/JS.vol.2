@@ -1,17 +1,6 @@
 const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
 
-/*создал общий класс каталога как для списка товаров так и для списка корзины */
 
-class List {
-    constructor(url, container, list = list2) {
-        this.container = container;
-        this.list = list;
-        this.url = url;
-        this.goods = [];
-        this.allProducts = [];
-    }
-
-}
 
 /*общий класс товара для каталоа и корзины*/
 class List {
